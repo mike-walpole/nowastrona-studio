@@ -1,1 +1,0 @@
-# nowastrona-studio
