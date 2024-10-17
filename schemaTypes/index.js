@@ -1,4 +1,5 @@
 import { defineType, defineField } from 'sanity'
+import pricingSchema from './pricingSchema'
 
 const faqSchema = defineType({
   name: 'faq',
@@ -26,4 +27,4 @@ const faqSchema = defineType({
   ],
 })
 
-export const schemaTypes = [faqSchema]
+export const schemaTypes = [faqSchema, pricingSchema]
