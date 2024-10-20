@@ -60,6 +60,7 @@ export const pricingSchema = defineType({
       title: 'Add-ons',
       type: 'array',
       of: [addonSchema],
+      validation: (Rule) => Rule.required(),
      
     }),
     defineField({
